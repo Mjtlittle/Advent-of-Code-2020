@@ -1,5 +1,5 @@
 # 🎄 Advent of Code 2020 🎄
-My submissions for AoC 2020. This year done in Node.js
+My solutions for AoC 2020. This year done in Node.js
 
 ## Running
 Node.js is required to run the solutions. I am personally using `yarn` but that is optional. To build the project run:
