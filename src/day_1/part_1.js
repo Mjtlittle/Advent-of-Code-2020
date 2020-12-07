@@ -40,4 +40,6 @@ while (i < j) {
 
 // calculate the answer
 answer = a * b
-console.log(answer)
+
+exports.result = answer
+exports.expected = 878724

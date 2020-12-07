@@ -46,4 +46,5 @@ for (let i = 0; i < boarding_ids.length; i++) {
 
 const my_seat = current - 1
 
-console.log(my_seat)
+exports.result = my_seat
+exports.expected = 741

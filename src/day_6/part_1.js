@@ -1,5 +1,4 @@
 const fs = require('fs')
-const { decode } = require('punycode')
 
 const lines = fs
   .readFileSync('src/day_6/input.txt', 'utf-8')
@@ -31,4 +30,5 @@ const sum_reducer = (a, b) => a + b
 
 const total_questions = groups.map(count_questions).reduce(sum_reducer)
 
-console.log(total_questions)
+exports.result = total_questions
+exports.expected = 6504

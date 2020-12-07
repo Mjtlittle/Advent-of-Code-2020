@@ -6,10 +6,13 @@
   "author": "Joshua <Jplittle2001@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "colors": "^1.4.0",
     "glob": "^7.1.6"
   },
   "scripts": {
     "day": "node runner.js",
     "all": "node runner.js *"
+  },
+  "dependencies": {
   }
 }

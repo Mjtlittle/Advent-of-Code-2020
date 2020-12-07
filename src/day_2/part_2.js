@@ -31,4 +31,5 @@ passwords.forEach(({ pos1, pos2, letter, password }) => {
   if (at_only_one) valid_passwords += 1
 })
 
-console.log(valid_passwords)
+exports.result = valid_passwords
+exports.expected = 485

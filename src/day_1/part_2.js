@@ -59,4 +59,6 @@ for (let i = 0; i < entries.length - 2; i++) {
 }
 
 answer = first * result[0] * result[1]
-console.log(answer)
+
+exports.result = answer
+exports.expected = 201251610

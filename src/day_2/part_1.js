@@ -33,4 +33,5 @@ passwords.forEach(({ min, max, letter, password }) => {
   }
 })
 
-console.log(valid_passwords)
+exports.result = valid_passwords
+exports.expected = 524

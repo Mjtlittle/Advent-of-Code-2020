@@ -32,4 +32,5 @@ while (y < height) {
   x %= width
 }
 
-console.log(trees_count)
+exports.result = trees_count
+exports.expected = 184

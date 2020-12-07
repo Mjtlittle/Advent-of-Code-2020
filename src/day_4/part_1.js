@@ -37,4 +37,5 @@ const valid_passports = passports.reduce(
   0
 )
 
-console.log(valid_passports)
+exports.result = valid_passports
+exports.expected = 222

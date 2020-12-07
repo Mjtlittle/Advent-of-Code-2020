@@ -39,4 +39,5 @@ boarding_ids.forEach((id) => {
   if (id > max_id) max_id = id
 })
 
-console.log(max_id)
+exports.result = max_id
+exports.expected = 994

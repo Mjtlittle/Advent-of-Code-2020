@@ -48,4 +48,5 @@ solution = slopes
   .map((slope) => count_trees(slope[0], slope[1]))
   .reduce((prev, curr) => prev * curr, 1)
 
-console.log(solution)
+exports.result = solution
+exports.expected = 2431272960
