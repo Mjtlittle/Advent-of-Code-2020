@@ -1,6 +1,4 @@
-const { constants } = require('buffer')
 const fs = require('fs')
-const { decode } = require('punycode')
 
 const boarding_passes = fs
   .readFileSync('src/day_5/input.txt', 'utf-8')

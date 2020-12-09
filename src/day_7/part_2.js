@@ -1,5 +1,4 @@
 const fs = require('fs')
-const { parse } = require('path')
 
 const parse_subbag = (string) => {
   const words = string.split(' ').slice(0, -1)
